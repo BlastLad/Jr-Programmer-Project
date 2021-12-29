@@ -15,7 +15,7 @@ public abstract class Unit : MonoBehaviour,
 
     protected NavMeshAgent m_Agent;
     protected Building m_Target;
-
+    private int hello;
     protected void Awake()
     {
         m_Agent = GetComponent<NavMeshAgent>();
